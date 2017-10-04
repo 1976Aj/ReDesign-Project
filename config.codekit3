@@ -7,13 +7,96 @@
 		"uuidString": "CA61001B-EC49-4680-8D28-AC12869E0B2B"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
+		},
+	"\/CO-OPProject\/001-social-4.png": {
+		"ft": 32768,
+		"iS": 378,
+		"oA": 0,
+		"oAP": "\/CO-OPProject\/001-social-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/CO-OPProject\/002-social-5.png": {
+		"ft": 32768,
+		"iS": 562,
+		"oA": 0,
+		"oAP": "\/CO-OPProject\/002-social-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/CO-OPProject\/003-social.png": {
+		"ft": 32768,
+		"iS": 546,
+		"oA": 0,
+		"oAP": "\/CO-OPProject\/003-social.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/CO-OPProject\/004-social-2.png": {
+		"ft": 32768,
+		"iS": 690,
+		"oA": 0,
+		"oAP": "\/CO-OPProject\/004-social-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/CO-OPProject\/005-social-3.png": {
+		"ft": 32768,
+		"iS": 394,
+		"oA": 0,
+		"oAP": "\/CO-OPProject\/005-social-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/CO-OPProject\/006-social-1.png": {
+		"ft": 32768,
+		"iS": 411,
+		"oA": 0,
+		"oAP": "\/CO-OPProject\/006-social-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/CO-OPProject\/co-op-project.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CO-OPProject\/co-op-project.sketch",
+		"oF": 0
+		},
+	"\/CO-OPProject\/tool.png": {
+		"ft": 32768,
+		"iS": 952,
+		"oA": 0,
+		"oAP": "\/CO-OPProject\/tool.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/css\/main.css": {
 		"aP": 1,
@@ -43,6 +126,7 @@
 		},
 	"\/scripts\/main.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/scripts\/min\/main-min.js",
@@ -52,6 +136,7 @@
 		},
 	"\/scripts\/min\/main-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/scripts\/min\/min\/main-min-min.js",
@@ -61,6 +146,7 @@
 		},
 	"\/scripts\/min\/main.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/scripts\/min\/min\/main-min.js",
@@ -75,7 +161,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 523834137,
-	"displayValue": "playingTower",
+	"displayValue": "WebsiteProject-1017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-krieger"
 	},
@@ -481,6 +567,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -488,6 +578,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -585,6 +679,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -604,6 +702,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -732,6 +834,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -1277,6 +1383,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1345,6 +1455,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -1384,6 +1498,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2017,6 +2135,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
