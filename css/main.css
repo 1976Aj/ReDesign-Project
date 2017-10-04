@@ -13,18 +13,35 @@ body {
     margin-top: -1%;
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.navbar .navbar-inner {
+    padding: 0;
+    margin: 2% 0 1% 8%;
 }
 
-.navbar .navbar-collapse {
-  text-align: center;
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
 }
 
+.navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+    padding-right: 5%;
+}
 
-
-.navigation {
+.navbar .nav li a {
+    text-align: center;
     text-transform: uppercase;
-} 
+    color: black;
+}
+
+.mainImg {
+    margin: auto;
+    width: 100%;
+}
+
+
+
