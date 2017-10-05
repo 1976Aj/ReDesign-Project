@@ -20,14 +20,13 @@ body {
 }
 
 .navbar .nav {
-   /* margin: 2% 0 -1% 0; */
     display: table;
     width: 100%;
 }
 
 .navbar .nav li {
     display: table-cell;
-    width: 3%;
+    width: 1%;
     float: none;
     padding-right: 11%;
     font-size: .9em;
@@ -44,16 +43,16 @@ body {
     width: 100%;
 }
 
+/* Footer Styles */
 .footerTxt {
 padding-top: 1%;
 margin-left: -13%;
 }
 
 span {
-    text-align: left;
-    
- font-size: .9em;
- letter-spacing: 0.2em;
+    text-align: left;  
+    font-size: .9em;
+    letter-spacing: 0.2em;
 }
 
 .footerImg {
