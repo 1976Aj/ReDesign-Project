@@ -16,20 +16,21 @@ body {
 /* Customize the navbar links to be fill the entire space of the .navbar */
 .navbar .navbar-inner {
     padding: 0;
-    margin: 2% 0 1% 8%;
+    margin: 2% 0 1% 0;
 }
 
 .navbar .nav {
-    margin: 0;
+   /* margin: 2% 0 -1% 0; */
     display: table;
     width: 100%;
 }
 
 .navbar .nav li {
     display: table-cell;
-    width: 1%;
+    width: 3%;
     float: none;
-    padding-right: 5%;
+    padding-right: 11%;
+    font-size: .9em;
 }
 
 .navbar .nav li a {
@@ -42,6 +43,30 @@ body {
     margin: auto;
     width: 100%;
 }
+
+.footerTxt {
+padding-top: 1%;
+margin-left: -13%;
+}
+
+span {
+    text-align: left;
+    
+ font-size: .9em;
+ letter-spacing: 0.2em;
+}
+
+.footerImg {
+   margin-top: 1%; 
+}
+
+.footer {
+    margin-left: 10%;
+}
+.socialFooter {
+    margin-top: 1%;
+}
+
 
 
 
