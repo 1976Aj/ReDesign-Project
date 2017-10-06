@@ -1,71 +1,25 @@
 body {
-    font-family: 'Source Serif Pro', serif;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
+.topnav {
+    background-color: #3A5D87;
+}
 .topLogo {
-    font-size: 2em;
-    margin-top: 4%;
+    font-size: 3em;
+    color: white;
 }
 
-.topLogo img {
-    padding-right: 1%;
-    width: 7%;
-    margin-top: -1%;
+.topText {
+    font-size: .8em;
+    color: white;
 }
 
-/* Customize the navbar links to be fill the entire space of the .navbar */
-.navbar .navbar-inner {
-    padding: 0;
-    margin: 2% 0 1% 0;
+.navitems li a {
+    color: white;
 }
 
-.navbar .nav {
-    display: table;
-    width: 100%;
+.navitems li a:hover {
+    color: #0099ff;
 }
-
-.navbar .nav li {
-    display: table-cell;
-    width: 1%;
-    float: none;
-    padding-right: 11%;
-    font-size: .9em;
-}
-
-.navbar .nav li a {
-    text-align: center;
-    text-transform: uppercase;
-    color: black;
-}
-
-.mainImg {
-    margin: auto;
-    width: 100%;
-}
-
-/* Footer Styles */
-.footerTxt {
-padding-top: 1%;
-margin-left: -13%;
-}
-
-span {
-    text-align: left;  
-    font-size: .9em;
-    letter-spacing: 0.2em;
-}
-
-.footerImg {
-   margin-top: 1%; 
-}
-
-.footer {
-    margin-left: 10%;
-}
-.socialFooter {
-    margin-top: 1%;
-}
-
-
-
-
