@@ -3,23 +3,37 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.topnav {
-    background-color: #3A5D87;
+.navbar-custom {
+   background-color: #3A5D87;
 }
-.topLogo {
+
+ .navbar-custom .navbar-brand {
     font-size: 3em;
     color: white;
 }
 
-.topText {
-    font-size: .8em;
+.navbar-custom .navbar-text {
+    color: white;
+    font-size: .9em;
+}
+
+
+.navbar-custom .navbar-nav .nav-link {
     color: white;
 }
 
-.navitems li a {
+.navbar-custom .navbar-nav .nav-item .nav-link a:hover {
+    color: #29C5EC;
+}
+
+.navbar-nav .navbar-toggler-icon {
     color: white;
 }
 
-.navitems li a:hover {
-    color: #0099ff;
+
+
+.navbar-light {
+    color: white;
 }
+
+
